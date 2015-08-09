@@ -1,41 +1,41 @@
-[0m[BENCHMARK SUMMARY] Time(s): 5.85	BatchSize: 128 	 netType: alexnet	 backend: cudnn	 nGPUs: 1 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 4.07	BatchSize: 128 	 netType: alexnet	 backend: cudnn	 nGPUs: 2 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 5.40	BatchSize: 128 	 netType: alexnetowt	 backend: cudnn	 nGPUs: 1 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 3.32	BatchSize: 128 	 netType: alexnetowt	 backend: cudnn	 nGPUs: 2 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 2.41	BatchSize: 128 	 netType: alexnetowt	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 2.82	BatchSize: 128 	 netType: alexnetowt	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 8.32	BatchSize: 128 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 1 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 5.13	BatchSize: 128 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 2 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 4.42	BatchSize: 128 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 5.16	BatchSize: 128 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 6.37	BatchSize: 256 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 6.72	BatchSize: 256 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 11.34	BatchSize: 512 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 10.46	BatchSize: 512 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 22.47	BatchSize: 1024 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 19.17	BatchSize: 1024 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 13.46	BatchSize: 128 	 netType: overfeat	 backend: cudnn	 nGPUs: 1 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 8.23	BatchSize: 128 	 netType: overfeat	 backend: cudnn	 nGPUs: 2 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 5.90	BatchSize: 128 	 netType: overfeat	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 6.37	BatchSize: 128 	 netType: overfeat	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 9.71	BatchSize: 256 	 netType: overfeat	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 10.18	BatchSize: 256 	 netType: overfeat	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 19.72	BatchSize: 512 	 netType: overfeat	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 16.92	BatchSize: 512 	 netType: overfeat	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 45.43	BatchSize: 128 	 netType: vgg	 backend: cudnn	 nGPUs: 1 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 23.58	BatchSize: 128 	 netType: vgg	 backend: cudnn	 nGPUs: 2 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 13.58	BatchSize: 128 	 netType: vgg	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 10.00	BatchSize: 128 	 netType: vgg	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 25.86	BatchSize: 256 	 netType: vgg	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 18.01	BatchSize: 256 	 netType: vgg	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 51.72	BatchSize: 512 	 netType: vgg	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 32.13	BatchSize: 512 	 netType: vgg	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 26.05	BatchSize: 128 	 netType: googlenet	 backend: cudnn	 nGPUs: 1 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 19.65	BatchSize: 128 	 netType: googlenet	 backend: cudnn	 nGPUs: 2 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 19.50	BatchSize: 128 	 netType: googlenet	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 25.71	BatchSize: 128 	 netType: googlenet	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 33.11	BatchSize: 256 	 netType: googlenet	 backend: cudnn	 nGPUs: 4 	 epochSize: 20[0m	
-[0m[BENCHMARK SUMMARY] Time(s): 37.68	BatchSize: 256 	 netType: googlenet	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
+[BENCHMARK SUMMARY] Time(s): 5.85	BatchSize: 128 	 netType: alexnet	 backend: cudnn	 nGPUs: 1 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 4.07	BatchSize: 128 	 netType: alexnet	 backend: cudnn	 nGPUs: 2 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 5.40	BatchSize: 128 	 netType: alexnetowt	 backend: cudnn	 nGPUs: 1 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 3.32	BatchSize: 128 	 netType: alexnetowt	 backend: cudnn	 nGPUs: 2 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 2.41	BatchSize: 128 	 netType: alexnetowt	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 2.82	BatchSize: 128 	 netType: alexnetowt	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 8.32	BatchSize: 128 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 1 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 5.13	BatchSize: 128 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 2 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 4.42	BatchSize: 128 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 5.16	BatchSize: 128 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 6.37	BatchSize: 256 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 6.72	BatchSize: 256 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 11.34	BatchSize: 512 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 10.46	BatchSize: 512 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 22.47	BatchSize: 1024 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 19.17	BatchSize: 1024 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 13.46	BatchSize: 128 	 netType: overfeat	 backend: cudnn	 nGPUs: 1 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 8.23	BatchSize: 128 	 netType: overfeat	 backend: cudnn	 nGPUs: 2 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 5.90	BatchSize: 128 	 netType: overfeat	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 6.37	BatchSize: 128 	 netType: overfeat	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 9.71	BatchSize: 256 	 netType: overfeat	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 10.18	BatchSize: 256 	 netType: overfeat	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 19.72	BatchSize: 512 	 netType: overfeat	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 16.92	BatchSize: 512 	 netType: overfeat	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 45.43	BatchSize: 128 	 netType: vgg	 backend: cudnn	 nGPUs: 1 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 23.58	BatchSize: 128 	 netType: vgg	 backend: cudnn	 nGPUs: 2 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 13.58	BatchSize: 128 	 netType: vgg	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 10.00	BatchSize: 128 	 netType: vgg	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 25.86	BatchSize: 256 	 netType: vgg	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 18.01	BatchSize: 256 	 netType: vgg	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 51.72	BatchSize: 512 	 netType: vgg	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 32.13	BatchSize: 512 	 netType: vgg	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 26.05	BatchSize: 128 	 netType: googlenet	 backend: cudnn	 nGPUs: 1 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 19.65	BatchSize: 128 	 netType: googlenet	 backend: cudnn	 nGPUs: 2 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 19.50	BatchSize: 128 	 netType: googlenet	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 25.71	BatchSize: 128 	 netType: googlenet	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 33.11	BatchSize: 256 	 netType: googlenet	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 37.68	BatchSize: 256 	 netType: googlenet	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
 /home/soumith/torch/install/bin/luajit: ...th/code/fairmark1/imagenet/fbcunn_files/DataParallel.lua:153: /home/soumith/torch/extra/cutorch/lib/THC/THCStorage.cu(30) : cuda runtime error : out of memory
 stack traceback:
 	[C]: in function 'resizeAs'
@@ -46,4 +46,4 @@ stack traceback:
 	[C]: in function 'dofile'
 	...mith/torch/install/lib/luarocks/rocks/trepl/scm-1/bin/th:131: in main chunk
 	[C]: at 0x00406670
-[0m[BENCHMARK SUMMARY] Time(s): 62.51	BatchSize: 512 	 netType: googlenet	 backend: cudnn	 nGPUs: 8 	 epochSize: 20[0m	
+[BENCHMARK SUMMARY] Time(s): 62.51	BatchSize: 512 	 netType: googlenet	 backend: cudnn	 nGPUs: 8 	 epochSize: 20
