@@ -21,6 +21,7 @@ cmd:option('-epochSize',       20, 'Number of batches per epoch')
 cmd:option('-batchSize',       128,   'mini-batch size (1 = pure stochastic)')
 ---------- Optimization options ----------------------
 cmd:option('-netType',     'alexnet', 'Options: alexnet | overfeat')
+cmd:option('-useCollectives', false, 'whether to use ring collective operations')
 cmd:text()
 
 opt = cmd:parse(arg or {})
@@ -44,14 +45,17 @@ local optimState = {
     weightDecay = 0
 }
 
-local inputsCPU = torch.FloatTensor(opt.batchSize, 3, 224, 224):normal()
+local inputsCPU = cutorch.createCudaHostTensor(opt.batchSize, 3, 224, 224):normal()
 local labelsCPU = torch.FloatTensor(opt.batchSize):fill(1)
 
 local inputs = torch.CudaTensor(opt.batchSize, 3, 224, 224):normal()
 local labels = torch.CudaTensor(opt.batchSize):fill(1)
 
-local parameters, gradParameters = model:getParameters()
+cudnn.benchmark = true
 
+local parameters, gradParameters = model:getParameters()
+--warmup
+model:forward(inputs)
 local tm = torch.Timer()
 for i=1,opt.epochSize do
    cutorch.synchronize()

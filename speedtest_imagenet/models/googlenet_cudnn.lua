@@ -104,6 +104,9 @@ function createModel(nGPU)
           cutorch.setDevice(i)
           model:add(model_single:clone(), i)
       end
+      model.gradInput = nil
+      model.flattenParams = true
+      model.useCollectives = opt.useCollectives
       cutorch.setDevice(1)
    end
 

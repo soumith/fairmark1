@@ -56,6 +56,9 @@ function createModel(nGPU)
                                features:add(features_single:clone(), i)
          end)
       end
+      features.gradInput = nil
+      features.flattenParams = true
+      features.useCollectives = opt.useCollectives
    end
 
    local model = nn.Sequential():cuda()

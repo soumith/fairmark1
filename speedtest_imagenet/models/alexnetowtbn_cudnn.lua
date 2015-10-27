@@ -33,6 +33,8 @@ function createModel(nGPU)
          end)
       end
       features.gradInput = nil
+      features.flattenParams = true
+      features.useCollectives = opt.useCollectives
    end
 
    local classifier = nn.Sequential()
