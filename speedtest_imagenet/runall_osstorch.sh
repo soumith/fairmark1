@@ -23,3 +23,9 @@ $LUA main.lua -netType googlenet -backend cudnn -nGPU 1 -batchSize 64 -epochSize
 $LUA main.lua -netType googlenet -backend cudnn -nGPU 2 -batchSize 128 -epochSize 10
 $LUA main.lua -netType googlenet -backend cudnn -nGPU 4 -batchSize 256 -epochSize 10
 $LUA main.lua -netType googlenet -backend cudnn -nGPU 8 -batchSize 512 -epochSize 10
+
+
+$LUA main.lua -netType vggstress -backend cudnn -nGPU 1 -batchSize 64 -epochSize 10
+$LUA main.lua -netType vggstress -backend cudnn -nGPU 2 -batchSize 128 -epochSize 10
+$LUA main.lua -netType vggstress -backend cudnn -nGPU 4 -batchSize 256 -epochSize 10
+$LUA main.lua -netType vggstress -backend cudnn -nGPU 8 -batchSize 512 -epochSize 10
