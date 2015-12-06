@@ -1,0 +1,14 @@
+Using Lua at:
+/home/awesomebox/torch/install/bin/luajit
+[BENCHMARK SUMMARY] Time(s): 5.11	BatchSize: 128 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 1 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 5.83	BatchSize: 256 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 2 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 7.08	BatchSize: 512 	 netType: alexnetowtbn	 backend: cudnn	 nGPUs: 4 	 epochSize: 20
+[BENCHMARK SUMMARY] Time(s): 5.92	BatchSize: 64 	 netType: vgg	 backend: cudnn	 nGPUs: 1 	 epochSize: 10
+[BENCHMARK SUMMARY] Time(s): 6.02	BatchSize: 128 	 netType: vgg	 backend: cudnn	 nGPUs: 2 	 epochSize: 10
+[BENCHMARK SUMMARY] Time(s): 6.59	BatchSize: 256 	 netType: vgg	 backend: cudnn	 nGPUs: 4 	 epochSize: 10
+[BENCHMARK SUMMARY] Time(s): 2.98	BatchSize: 64 	 netType: googlenet	 backend: cudnn	 nGPUs: 1 	 epochSize: 10
+[BENCHMARK SUMMARY] Time(s): 3.30	BatchSize: 128 	 netType: googlenet	 backend: cudnn	 nGPUs: 2 	 epochSize: 10
+[BENCHMARK SUMMARY] Time(s): 3.69	BatchSize: 256 	 netType: googlenet	 backend: cudnn	 nGPUs: 4 	 epochSize: 10
+[BENCHMARK SUMMARY] Time(s): 5.96	BatchSize: 64 	 netType: vggstress	 backend: cudnn	 nGPUs: 1 	 epochSize: 10
+[BENCHMARK SUMMARY] Time(s): 6.95	BatchSize: 128 	 netType: vggstress	 backend: cudnn	 nGPUs: 2 	 epochSize: 10
+[BENCHMARK SUMMARY] Time(s): 7.33	BatchSize: 256 	 netType: vggstress	 backend: cudnn	 nGPUs: 4 	 epochSize: 10
